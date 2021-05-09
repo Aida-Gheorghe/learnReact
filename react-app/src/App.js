@@ -1,5 +1,6 @@
 import Navbar from "./Navbar"
 import Home from "./Home"
+import MyInput from "./Input"
 
 function App() {
   // dynamic value accepted > sting, number, array
@@ -13,6 +14,8 @@ function App() {
         {/* <h1>{myTitle}</h1> */}
         <Home />
       </div>
+
+      <MyInput />
     </div>
   )
 }
